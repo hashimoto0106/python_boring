@@ -31,7 +31,7 @@ while not url.endswith('#'):
         for chunk in res.iter_content(100000):
             image_file.write(chunk)
         image_file.close()
-        
+
     # PrevボタンのURLを取得する
     prev_link = soup.select('a[rel="prev"]')[0]
     url = 'http://xkcd.com' + prev_link.get('href')

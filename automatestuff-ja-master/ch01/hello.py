@@ -1,5 +1,5 @@
 # このプログラムは挨拶を表示して名前と年齢を尋ねる ❶
-    
+
 print('Hello world!')  # ❷
 print('What is your name?') # 名前を尋ねる
 my_name = input()  # ❸

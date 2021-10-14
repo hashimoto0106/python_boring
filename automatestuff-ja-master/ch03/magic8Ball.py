@@ -1,5 +1,5 @@
 import random  # ❶
- 
+
 def get_answer(answer_number):  # ❷
     if answer_number == 1:  # ❸
         return '確かにそうだ'
