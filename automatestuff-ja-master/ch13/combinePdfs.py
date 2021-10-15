@@ -1,6 +1,6 @@
 #! python3
 # combinePdfs.py - カレントディレクトリの全PDFをひとつのPDFに結合する
- 
+
 import PyPDF2, os  # ❶
 
 # すべてのPDFファイル名を取得する
